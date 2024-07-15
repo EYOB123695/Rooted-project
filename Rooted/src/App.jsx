@@ -43,8 +43,8 @@ const App = () => (
             </>
           }
         />
-        <Route path="/login" element={<LoginPage />} /> {/* No Navbar here */}
-        <Route path="/signup" element={<SignupPage />} /> {/* No Navbar here */}
+        <Route path="/login" element={<LoginPage />} />
+        <Route path="/signup" element={<SignupPage />} />
       </Routes>
     </div>
   </Router>

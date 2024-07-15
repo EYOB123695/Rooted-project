@@ -14,19 +14,21 @@ const Hero = () => (
           Empowering the Ethiopian startup ecosystem: Invest,<br /> Hire, Grow, and Trade. Connecting investors with<br />startups, facilitating job opportunities, and driving <br />innovation through buying and selling stocks.
         </p>
         <div className="mt-6 flex space-x-4">
-          <Link
-            to="/login"
-            className="text-[#ABD9D9] py-3 px-6 rounded-full border-2 border-[#ABD9D9] bg-transparent hover:bg-[#ABD9D9] hover:text-[#13124F] transition duration-300 ease-in-out"
-            style={{ borderRadius: '83px' }}
-          >
-            Login
+          <Link to="/login">
+            <button
+              className="text-[#ABD9D9] py-3 px-6 rounded-full border-2 border-[#ABD9D9] bg-transparent hover:bg-[#ABD9D9] hover:text-[#13124F] transition duration-300 ease-in-out"
+              style={{ borderRadius: '83px' }}
+            >
+              Login
+            </button>
           </Link>
-          <Link
-            to="/signup"
-            className="text-[#ABD9D9] py-3 px-6 rounded-full border-2 border-[#ABD9D9] bg-transparent hover:bg-[#ABD9D9] hover:text-[#13124F] transition duration-300 ease-in-out"
-            style={{ borderRadius: '83px' }}
-          >
-            Signup
+          <Link to="/signup">
+            <button
+              className="text-[#ABD9D9] py-3 px-6 rounded-full border-2 border-[#ABD9D9] bg-transparent hover:bg-[#ABD9D9] hover:text-[#13124F] transition duration-300 ease-in-out"
+              style={{ borderRadius: '83px' }}
+            >
+              Signup
+            </button>
           </Link>
         </div>
       </div>

@@ -8,6 +8,7 @@ const Navbar = () => {
 
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
+      <div className="text-white font-bold text-xl">Rooted</div>
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks
           .filter(nav => nav.title !== 'Login' && nav.title !== 'Signup')  // Exclude Login and Signup
