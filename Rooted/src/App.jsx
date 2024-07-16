@@ -1,6 +1,17 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import { Navbar, LandingPage, HomePage, InvestPage, HirePage, RegisterPage, LoginPage, SignupPage } from './components';
+import {
+  Navbar,
+  LandingPage,
+  HomePage,
+  InvestPage,
+  HirePage,
+  RegisterPage,
+  LoginPage,
+  SignupPage,
+  Investmentinfo,  // Import Investmentinfo with the correct filename
+  Footer
+} from './components';
 
 const App = () => (
   <Router>
@@ -20,7 +31,7 @@ const App = () => (
           path="/invest"
           element={
             <>
-              <Navbar />
+              
               <InvestPage />
             </>
           }
@@ -45,6 +56,15 @@ const App = () => (
         />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/signup" element={<SignupPage />} />
+        <Route
+          path="/investmentinfo"  // Ensure correct route path
+          element={
+            <>
+              
+              <Investmentinfo />  {/* Ensure correct component name */}
+            </>
+          }
+        />
       </Routes>
     </div>
   </Router>
