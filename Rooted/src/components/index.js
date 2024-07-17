@@ -10,11 +10,13 @@ import LoginPage from './LoginPage';
 import SignupPage from './SignupPage';
 import LandingPage from './LandingPage';  
 import Investmentinfo from './Investmentinfo';
+import Searchforstartup from './Searchforstartup';
 
 export {
   Navbar,
   Investmentinfo,
   Footer,
+  Searchforstartup,
   Testimonials,
   Hero,
   HomePage,

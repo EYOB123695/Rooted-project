@@ -10,6 +10,7 @@ import {
   LoginPage,
   SignupPage,
   Investmentinfo,  // Import Investmentinfo with the correct filename
+  Searchforstartup, // Import Searchforstartup
   Footer
 } from './components';
 
@@ -31,7 +32,6 @@ const App = () => (
           path="/invest"
           element={
             <>
-              
               <InvestPage />
             </>
           }
@@ -40,7 +40,7 @@ const App = () => (
           path="/hire"
           element={
             <>
-              <Navbar />
+              
               <HirePage />
             </>
           }
@@ -57,11 +57,18 @@ const App = () => (
         <Route path="/login" element={<LoginPage />} />
         <Route path="/signup" element={<SignupPage />} />
         <Route
-          path="/investmentinfo"  // Ensure correct route path
+          path="/investmentinfo"
           element={
             <>
-              
-              <Investmentinfo />  {/* Ensure correct component name */}
+              <Investmentinfo />
+            </>
+          }
+        />
+        <Route
+          path="/searchforstartup"  // Add the route for Searchforstartup
+          element={
+            <>
+              <Searchforstartup />
             </>
           }
         />

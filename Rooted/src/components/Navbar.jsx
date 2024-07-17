@@ -1,14 +1,14 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { navLinks } from '../constants';
-import { close, logo, menu } from '../assets';
+import { close, menu, Newerlogo,LOGOseven } from '../assets';
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
-      <div className="text-white font-bold text-xl">Rooted</div>
+      <img src={LOGOseven} alt="Rooted Logo" className="w-[50px] h-[50px] object-contain" />
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks
           .filter(nav => nav.title !== 'Login' && nav.title !== 'Signup')  // Exclude Login and Signup
@@ -39,7 +39,7 @@ const Navbar = () => {
         >
           <ul className="list-none flex flex-col justify-end items-center flex-1">
             {navLinks
-              .filter(nav => nav.title !== 'Login' && nav.title !== 'Signup')  // Exclude Login and Signup
+              .filter(nav => nav.title !== 'Login' && nav.title !== 'Signup') 
               .map((nav, index) => (
                 <li
                   key={nav.id}

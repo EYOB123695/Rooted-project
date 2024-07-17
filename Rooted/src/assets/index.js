@@ -28,9 +28,21 @@ import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
 import imagesix from "./Imagesix.png";
+import Newerlogo from "./Newerlogo.png";
+import Startupone from "./Startupone.png";
+import Startuptwo from "./Startuptwo.png";
+import Imageforhire from "./Imageforhire.png";
+import Imageforhiretwo from "./Imageforhiretwo.png";
+import LOGOseven from "./LOGOseven.png";
 export {
   airbnb,
+  Imageforhire,
+  LOGOseven,
+  Imageforhiretwo,
   imagesix,
+  Startuptwo,
+  Startupone,
+  Newerlogo,
   Imageone,
   bill,
   binance,

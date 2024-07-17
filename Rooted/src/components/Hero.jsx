@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styles from '../style';
-import { discount, robot, Imagefour } from '../assets';
+import { Imagefour } from '../assets';
 
 const Hero = () => (
   <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
@@ -27,7 +27,7 @@ const Hero = () => (
               className="text-[#ABD9D9] py-3 px-6 rounded-full border-2 border-[#ABD9D9] bg-transparent hover:bg-[#ABD9D9] hover:text-[#13124F] transition duration-300 ease-in-out"
               style={{ borderRadius: '83px' }}
             >
-              Signup
+              Sign Up
             </button>
           </Link>
         </div>

@@ -1,13 +1,13 @@
 import styles from '../style';
-import { rootedlogo } from '../assets';
+import { rootedlogo,LOGOseven } from '../assets';
 import { footerLinks } from '../constants';
 
 const Footer = () => (
-  <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
+  <section className={`${styles.flexCenter} ${styles.paddingY} bg-primary flex-col`}>
     <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full gap-10`}>
       <div className="flex-1 flex flex-col justify-start items-start">  {/* Removed margin-right and added items-start */}
         <img
-          src={rootedlogo}
+          src={LOGOseven}
           alt="rootedlogo"
           className="w-[266px] h-[72px] object-contain"
         />
