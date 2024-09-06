@@ -13,3 +13,10 @@
 <br> <!-- Add space between images -->
 
 <img width="868" alt="Screenshot 2024-07-17 134803" src="https://github.com/user-attachments/assets/10ce0502-5320-4c9c-810e-04bd3b95c637">
+<br> <!-- Add space between images -->
+
+# One-Pager   
+Rooted is an online platform that bridges the Ethiopian diaspora with investment and business opportunities, offering centralized information, professional networks, investment matching, and educational resources to fuel innovation and growth.   
+
+
+<img width="868" alt="One pager" src="one_pager.jpg">
